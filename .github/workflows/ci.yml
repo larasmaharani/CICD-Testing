@@ -30,5 +30,5 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Test API III
+      - name: Test API IV
         run: mvn clean verify
